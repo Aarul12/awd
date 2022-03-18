@@ -25,7 +25,7 @@ let odd=(number)=>{
 }
 odd(20);*/
 
-let input =parseInt(prompt("Enter the value of n:"));
+/*let input =parseInt(prompt("Enter the value of n:"));
 let sum=0;
 let sumseries=(n)=>{
     for(var i=1;i<=n;i++){
@@ -33,7 +33,20 @@ let sumseries=(n)=>{
         document.write("Required sum of series is:" , sum);
     }
 }
-sumseries(input);
+sumseries(input);*/
+
+// WAP to find the sum of odd nos.
+let sumodd = parseInt(prompt("Enter the value of n:"));
+let summ=0;
+let sumoddnumber=(n)=>{
+    for(var i=1;i<=n;i++){
+        if(i%2!==0){
+            summ+=i;
+            console.log("required sum:",summ);
+        }
+    }
+}
+sumoddnumber(sumodd);
 
 </script>
 </body>
