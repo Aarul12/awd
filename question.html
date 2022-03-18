@@ -15,7 +15,7 @@ let even = (number) =>{
 }
 even(20);*/
 
-//WAP to print odd nos. from 1 to 20
+/*//WAP to print odd nos. from 1 to 20
 let odd=(number)=>{
     for(var i=1; i<=number; i++){
         if(i%2!==0){
@@ -23,8 +23,18 @@ let odd=(number)=>{
         }
     }
 }
-odd(20);
+odd(20);*/
 
-    </script>
+let input =parseInt(prompt("Enter the value of n:"));
+let sum=0;
+let sumseries=(n)=>{
+    for(var i=1;i<=n;i++){
+        sum+=i;
+        document.write("Required sum of series is:" , sum);
+    }
+}
+sumseries(input);
+
+</script>
 </body>
 </html>
