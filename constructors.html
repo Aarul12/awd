@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <body>
+            
+        <script>class Car{
+                constructor(name,year){
+                    this.name = name;
+                    this.year = year;
+                }
+                age(){
+                    let date =new Date();
+                    return date.getFullYear() - this.year;
+
+
+                    }
+                brand(){
+                    return this.name;
+                }
+                }
+            let myCar1 = new Car("Ford", 2014);
+            console.log("MY CAR " + myCar1.brand() + " IS " + myCar1.age()+" years old");
+
+            let myCar2 = new Car("punch", 2021);
+            console.log("MY CAR " + myCar2.brand() + " IS " + myCar2.age()+" years old");
+
+            let myCar3 = new Car("baleno", 2018);
+            console.log("MY CAR " + myCar3.brand() + " IS " + myCar3.age()+" years old");
+
+            let myCar4 = new Car("swift", 2008);
+            console.log("MY CAR " + myCar4.brand()  + " IS " + myCar4.age()+" years old");
+            
+
+        </script>
+        </body>
+    </head>
+</html>
